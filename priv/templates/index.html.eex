@@ -5,6 +5,13 @@
   <title></title>
 </head>
 <body>
-  <h1>Test</h1>
+  <h1>Test <%= @text %></h1>
+  <ul>
+    <%= for x <- @iterasi do %>
+    <li>B: <%= x.name %></li>
+    <% end %>
+  </ul>
+  <h3>Yoo huu</h3>
+
 </body>
 </html>
