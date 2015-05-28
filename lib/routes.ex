@@ -5,5 +5,6 @@ defmodule TrotIcip.Router do
     "Hey, you're in!"
   end
 
-  Trot.NotFound
+  import_routes TrotIcip.Router.Templates
+  import_routes Trot.NotFound
 end
